@@ -21,22 +21,19 @@ export const MagicLinkEmail = ({ url }: Props) => (
     <MjmlBody width={600}>
       <MjmlSection padding="0">
         <MjmlColumn>
-          <HeroImage src="https://s3.fr-par.scw.cloud/typebot/public/typebots/rxp84mn10va5iqek63enrg99/blocks/yfazs53p6coxe4u3tbbvkl0m" />
+          <HeroImage src="https://imageupload.io/ib/bRK8t0Rt20SELNy_1693921389.png" />
         </MjmlColumn>
       </MjmlSection>
       <MjmlSection padding="0 24px" cssClass="smooth">
         <MjmlColumn>
-          <Text>Here is your magic link 👇</Text>
+          <Text>Aqui está seu link mágico 👇</Text>
           <MjmlSpacer />
           <Button link={url} align="center">
-            Click here to sign in
+            Clique aqui para acessar 
           </Button>
           <Text>
-            If you didn&apos;t request this, please ignore this email.
-          </Text>
-          <Text>
             Best,
-            <br />- Typebot Team.
+            <br />- AgiApp Team.
           </Text>
         </MjmlColumn>
       </MjmlSection>
@@ -50,6 +47,6 @@ export const sendMagicLinkEmail = ({
 }: Pick<SendMailOptions, 'to'> & ComponentProps<typeof MagicLinkEmail>) =>
   sendEmail({
     to,
-    subject: 'Sign in to Typebot',
+    subject: 'Entrar no AgiApp',
     html: render(<MagicLinkEmail {...props} />).html,
   })

@@ -100,7 +100,7 @@ export const Header = () => {
             colorScheme="orange"
             fontWeight={700}
           >
-            Create a typebot
+            Crie um fluxo
           </Button>
         </HStack>
       </HStack>
