@@ -1,6 +1,6 @@
 import { DashboardHeader } from '@/features/dashboard/components/DashboardHeader'
 import { WorkspaceProvider } from '@/features/workspace/WorkspaceProvider'
-import { Heading, Link, Text, VStack } from '@chakra-ui/react'
+import { Heading, Text, VStack } from '@chakra-ui/react'
 
 export default function Page() {
   return (
