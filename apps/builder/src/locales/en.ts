@@ -70,7 +70,7 @@ export default {
   'analytics.viewsLabel': 'Views',
   'analytics.startsLabel': 'Starts',
   'analytics.completionRateLabel': 'Completion rate',
-  'auth.signin.heading': 'Sign In',
+  'auth.signin.heading': 'Fluxos AgiApp',
   'auth.signin.noAccountLabel.preLink': "Don't have an account?",
   'auth.signin.noAccountLabel.link': 'Sign up for free',
   'auth.register.heading': 'Create an account',
