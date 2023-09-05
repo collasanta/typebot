@@ -23,6 +23,7 @@ export const SignInPage = ({ type }: Props) => {
             : scopedT('register.heading')
         }
       />
+      <img src="https://imageupload.io/ib/bRK8t0Rt20SELNy_1693921389.png" alt="AgiApp" width="250" height="250" />
       <Heading
         onClick={() => {
           throw new Error('Sentry is working')

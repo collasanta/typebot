@@ -3,7 +3,7 @@ export default {
   'confirmModal.defaultTitle': 'Tem certeza?',
   'dashboard.header.settingsButton.label': 'Configurações & Membros',
   'dashboard.redirectionMessage': 'Você está sendo redirecionado...',
-  'dashboard.title': 'Meus typebots',
+  'dashboard.title': 'Meus Fluxos',
   delete: 'Apagar',
   errorMessage: 'Ocorreu um erro',
   cancel: 'Cancelar',
@@ -14,7 +14,7 @@ export default {
   pending: 'Pendente',
   skip: 'Pular',
   'folders.createFolderButton.label': 'Criar uma pasta',
-  'folders.createTypebotButton.label': 'Criar um typebot',
+  'folders.createTypebotButton.label': 'Criar um Fluxo',
   'folders.folderButton.deleteConfirmationMessage':
     'Tem certeza de que deseja excluir a pasta {folderName}? (Tudo o que estiver dentro será movido para o seu painel)',
   'folders.typebotButton.live': 'Live',
@@ -23,12 +23,12 @@ export default {
   'folders.typebotButton.duplicate': 'Duplicar',
   'folders.typebotButton.delete': 'Apagar',
   'folders.typebotButton.deleteConfirmationMessage':
-    'Tem certeza de que deseja excluir seu typebot {typebotName}?',
+    'Tem certeza de que deseja excluir seu fluxo {typebotName}?',
   'folders.typebotButton.deleteConfirmationMessageWarning':
     'Todos os dados associados serão excluídos e não poderão ser recuperados.',
   'account.apiTokens.heading': 'Tokens de API',
   'account.apiTokens.description':
-    'Esses tokens permitem que outros aplicativos controlem toda a sua conta e typebots. Tenha cuidado!',
+    'Esses tokens permitem que outros aplicativos controlem toda a sua conta e fluxos. Tenha cuidado!',
   'account.apiTokens.createButton.label': 'Criar',
   'account.apiTokens.deleteButton.label': 'Excluir',
   'account.apiTokens.table.nameHeader': 'Nome',
@@ -73,7 +73,7 @@ export default {
   'analytics.completionRateLabel': 'Taxa de conclusão',
   'auth.signin.heading': 'AgiApp Fluxos',
   'auth.signin.noAccountLabel.preLink': 'Criador de Fluxoss',
-  'auth.signin.noAccountLabel.link': 'Registre-se gratuitamente',
+  'auth.signin.noAccountLabel.link': '.',
   'auth.register.heading': 'Criar uma conta',
   'auth.register.alreadyHaveAccountLabel.preLink': 'Já tem uma conta?',
   'auth.register.alreadyHaveAccountLabel.link': 'Entrar',
@@ -94,7 +94,7 @@ export default {
   'auth.noProvider.preLink': 'Você precisa',
   'auth.noProvider.link':
     'configurar pelo menos um provedor de autenticação (E-mail, Google, GitHub, Facebook ou Azure AD).',
-  'auth.orEmailLabel': 'Ou com seu email',
+  'auth.orEmailLabel': 'Digite seu e-mail para entrar',
   'auth.emailSubmitButton.label': 'Enviar',
   'auth.magicLink.title': 'Um email com o link mágico foi enviado. 🪄',
   'auth.magicLink.description': 'Certifique-se de verificar sua pasta de spam.',
@@ -106,7 +106,7 @@ export default {
   'auth.socialLogin.customButton.label': 'Continuar com {customProviderName}',
   'billing.billingPortalButton.label': 'Portal de cobrança',
   'billing.contribution.preLink':
-    'A Typebot está contribuindo com 1% da sua assinatura para remover o CO₂ da atmosfera.',
+    'A AgiApp está contribuindo com 1% da sua assinatura para remover o CO₂ da atmosfera.',
   'billing.contribution.link': 'Saiba mais.',
   'billing.updateSuccessToast.description':
     'Sua assinatura {plan} foi atualizada com sucesso 🎉',
@@ -156,13 +156,13 @@ export default {
   'billing.usage.heading': 'Uso',
   'billing.usage.chats.heading': 'Chats',
   'billing.usage.chats.alert.soonReach':
-    'Seus typebots são populares! Você logo alcançará o limite de chats de seu plano. 🚀',
+    'Seus fluxos são populares! Você logo alcançará o limite de chats de seu plano. 🚀',
   'billing.usage.chats.alert.updatePlan':
     'Certifique-se de atualizar seu plano para aumentar esse limite e continuar conversando com seus usuários.',
   'billing.usage.chats.resetInfo': '(reiniciado todo dia 1)',
   'billing.usage.storage.heading': 'Armazenamento',
   'billing.usage.storage.alert.soonReach':
-    'Seus typebots são populares! Você logo alcançará o limite de armazenamento de seu plano. 🚀',
+    'Seus fluxos são populares! Você logo alcançará o limite de armazenamento de seu plano. 🚀',
   'billing.usage.storage.alert.updatePlan':
     'Certifique-se de atualizar seu plano para continuar coletando arquivos enviados. Você também pode excluir arquivos para liberar espaço.',
   'billing.limitMessage.brand': 'remover a marca',
@@ -180,7 +180,7 @@ export default {
   'workspace.settings.name.label': 'Nome:',
   'workspace.settings.deleteButton.label': 'Excluir espaço de trabalho',
   'workspace.settings.deleteButton.confirmMessage':
-    'Você tem certeza de que deseja excluir o espaço de trabalho {workspaceName}? Todas as suas pastas, typebots e resultados serão excluídos permanentemente.',
+    'Você tem certeza de que deseja excluir o espaço de trabalho {workspaceName}? Todas as suas pastas, fluxos e resultados serão excluídos permanentemente.',
   'workspace.settings.modal.menu.myAccount.label': 'Minha conta',
   'workspace.settings.modal.menu.preferences.label': 'Preferências',
   'workspace.settings.modal.menu.workspace.label': 'Espaço de trabalho',
