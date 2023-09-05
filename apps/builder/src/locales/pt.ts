@@ -72,7 +72,7 @@ export default {
   'analytics.startsLabel': 'Inícios',
   'analytics.completionRateLabel': 'Taxa de conclusão',
   'auth.signin.heading': 'AgiApp Fluxos',
-  'auth.signin.noAccountLabel.preLink': 'Criador de Fluxos',
+  'auth.signin.noAccountLabel.preLink': 'Criador de Fluxoss',
   'auth.signin.noAccountLabel.link': 'Registre-se gratuitamente',
   'auth.register.heading': 'Criar uma conta',
   'auth.register.alreadyHaveAccountLabel.preLink': 'Já tem uma conta?',
